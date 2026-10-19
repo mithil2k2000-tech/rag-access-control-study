@@ -1,0 +1,196 @@
+{
+ "e1": {
+  "BM25": {
+   "pre": 0.7736666666666666,
+   "post1": 0.7064444444444444,
+   "post2": 0.7377777777777778,
+   "post4": 0.7551111111111111,
+   "post8": 0.7653333333333333,
+   "post16": 0.7698888888888888,
+   "pre_by_tenants": {
+    "2": 0.737,
+    "4": 0.763,
+    "8": 0.786,
+    "16": 0.786,
+    "32": 0.797
+   },
+   "post1_by_tenants": {
+    "2": 0.706,
+    "4": 0.699,
+    "8": 0.715,
+    "16": 0.709,
+    "32": 0.703
+   }
+  },
+  "Dense": {
+   "pre": 0.6097777777777778,
+   "post1": 0.372,
+   "post2": 0.45711111111111113,
+   "post4": 0.5241111111111111,
+   "post8": 0.5625555555555556,
+   "post16": 0.5892222222222222,
+   "pre_by_tenants": {
+    "2": 0.484,
+    "4": 0.557,
+    "8": 0.614,
+    "16": 0.679,
+    "32": 0.714
+   },
+   "post1_by_tenants": {
+    "2": 0.373,
+    "4": 0.377,
+    "8": 0.379,
+    "16": 0.384,
+    "32": 0.347
+   }
+  },
+  "n_queries_per_cell": 1800
+ },
+ "e2": {
+  "auc_mean": 0.5135113888888889,
+  "auc_max": 0.5688,
+  "auc_min": 0.4805277777777778,
+  "by": {
+   "BM25-2": 0.516,
+   "BM25-4": 0.519,
+   "Dense-2": 0.514,
+   "Dense-4": 0.505
+  }
+ },
+ "e3": {
+  "per-tenant statistics": {
+   "exact": 0.0,
+   "mae": 18.91,
+   "queries": 6.0,
+   "trials": 100
+  },
+  "shared statistics": {
+   "exact": 1.0,
+   "mae": 0.0,
+   "queries": 6.0,
+   "trials": 100
+  }
+ },
+ "e4": [
+  {
+   "design": "shared cache",
+   "tau": 0.8,
+   "hit_rate": 0.8567,
+   "leak_rate": 0.7748,
+   "leaks_per_hit": 0.9044,
+   "leaked_docs": 37747
+  },
+  {
+   "design": "shared cache",
+   "tau": 0.85,
+   "hit_rate": 0.8258,
+   "leak_rate": 0.7438,
+   "leaks_per_hit": 0.9007,
+   "leaked_docs": 36325
+  },
+  {
+   "design": "shared cache",
+   "tau": 0.9,
+   "hit_rate": 0.7886,
+   "leak_rate": 0.7119,
+   "leaks_per_hit": 0.9027,
+   "leaked_docs": 34625
+  },
+  {
+   "design": "shared cache",
+   "tau": 0.95,
+   "hit_rate": 0.7358,
+   "leak_rate": 0.6643,
+   "leaks_per_hit": 0.9028,
+   "leaked_docs": 32455
+  },
+  {
+   "design": "shared cache",
+   "tau": 0.98,
+   "hit_rate": 0.6849,
+   "leak_rate": 0.6193,
+   "leaks_per_hit": 0.9042,
+   "leaked_docs": 30086
+  },
+  {
+   "design": "tenant-keyed cache",
+   "tau": 0.8,
+   "hit_rate": 0.6762,
+   "leak_rate": 0.2021,
+   "leaks_per_hit": 0.2989,
+   "leaked_docs": 2631
+  },
+  {
+   "design": "tenant-keyed cache",
+   "tau": 0.85,
+   "hit_rate": 0.632,
+   "leak_rate": 0.1866,
+   "leaks_per_hit": 0.2953,
+   "leaked_docs": 2330
+  },
+  {
+   "design": "tenant-keyed cache",
+   "tau": 0.9,
+   "hit_rate": 0.5807,
+   "leak_rate": 0.1603,
+   "leaks_per_hit": 0.276,
+   "leaked_docs": 2065
+  },
+  {
+   "design": "tenant-keyed cache",
+   "tau": 0.95,
+   "hit_rate": 0.5106,
+   "leak_rate": 0.138,
+   "leaks_per_hit": 0.2703,
+   "leaked_docs": 1841
+  },
+  {
+   "design": "tenant-keyed cache",
+   "tau": 0.98,
+   "hit_rate": 0.4454,
+   "leak_rate": 0.1245,
+   "leaks_per_hit": 0.2795,
+   "leaked_docs": 1597
+  },
+  {
+   "design": "user-keyed cache",
+   "tau": 0.8,
+   "hit_rate": 0.4585,
+   "leak_rate": 0.0,
+   "leaks_per_hit": 0.0,
+   "leaked_docs": 0
+  },
+  {
+   "design": "user-keyed cache",
+   "tau": 0.85,
+   "hit_rate": 0.4142,
+   "leak_rate": 0.0,
+   "leaks_per_hit": 0.0,
+   "leaked_docs": 0
+  },
+  {
+   "design": "user-keyed cache",
+   "tau": 0.9,
+   "hit_rate": 0.3656,
+   "leak_rate": 0.0,
+   "leaks_per_hit": 0.0,
+   "leaked_docs": 0
+  },
+  {
+   "design": "user-keyed cache",
+   "tau": 0.95,
+   "hit_rate": 0.2996,
+   "leak_rate": 0.0,
+   "leaks_per_hit": 0.0,
+   "leaked_docs": 0
+  },
+  {
+   "design": "user-keyed cache",
+   "tau": 0.98,
+   "hit_rate": 0.232,
+   "leak_rate": 0.0,
+   "leaks_per_hit": 0.0,
+   "leaked_docs": 0
+  }
+ ]
+}

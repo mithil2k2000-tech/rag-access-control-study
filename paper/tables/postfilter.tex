@@ -1,0 +1,15 @@
+\begin{table}[t]
+\centering
+\caption{Known-item recall in the top 5 with exact pre-filtering and with post-filtering of a global top-$fk$ list, averaged over 2--32 tenants, 3 seeds and 600 user queries per setting. The last column is the share of queries for which post-filtering returned fewer than 5 documents.}
+\label{tab:postfilter}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrrr}
+\toprule
+Retriever & Pre-filter & Post, 1$\times$ & Post, 4$\times$ & Post, 16$\times$ & Short answers at 4$\times$ \\
+\midrule
+BM25 & 0.774 & 0.706 & 0.755 & 0.770 & 70\% \\
+Dense & 0.610 & 0.372 & 0.524 & 0.589 & 72\% \\
+\bottomrule
+\end{tabular}
+\end{table}
