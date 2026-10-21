@@ -1,0 +1,21 @@
+{
+  "title": "Where Should a RAG System Enforce Access Control? Recall Loss, Shared-Statistics Leakage and Cache Leakage in Multi-Tenant Retrieval",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "description": "Preprint, code, data and results for: Where Should a RAG System Enforce Access Control? Recall Loss, Shared-Statistics Leakage and Cache Leakage in Multi-Tenant Retrieval. Not peer reviewed. The PDF is rag-access-control-study.pdf in this repository.",
+  "creators": [
+    {
+      "name": "Nagabathula, Mithil",
+      "affiliation": "University of East London"
+    }
+  ],
+  "keywords": [
+    "retrieval-augmented generation",
+    "access control",
+    "information leakage",
+    "AI security"
+  ],
+  "license": "MIT",
+  "language": "eng",
+  "access_right": "open"
+}

@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Where Should a RAG System Enforce Access Control? Recall Loss, Shared-Statistics Leakage and Cache Leakage in Multi-Tenant Retrieval"
+type: software
+authors:
+  - family-names: Nagabathula
+    given-names: Mithil
+    affiliation: University of East London
+    email: mithilnishu2000@gmail.com
+repository-code: "https://github.com/mithil2k2000-tech/rag-access-control-study"
+license: MIT
+version: "1.0.0"
+date-released: "2026-10-21"
+keywords:
+  - "retrieval-augmented generation"
+  - "access control"
+  - "information leakage"
+  - "AI security"
+preferred-citation:
+  type: report
+  title: "Where Should a RAG System Enforce Access Control? Recall Loss, Shared-Statistics Leakage and Cache Leakage in Multi-Tenant Retrieval"
+  authors:
+    - family-names: Nagabathula
+      given-names: Mithil
+      affiliation: University of East London
+  institution:
+    name: University of East London
+  year: 2026
+  month: 10
+  url: "https://github.com/mithil2k2000-tech/rag-access-control-study/blob/main/rag-access-control-study.pdf"
+  notes: "Preprint; not peer reviewed."
