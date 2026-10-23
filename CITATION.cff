@@ -9,6 +9,7 @@ authors:
     email: mithilnishu2000@gmail.com
 repository-code: "https://github.com/mithil2k2000-tech/rag-access-control-study"
 license: MIT
+doi: "10.5281/zenodo.23593008"
 version: "1.0.0"
 date-released: "2026-10-21"
 keywords:
@@ -28,4 +29,5 @@ preferred-citation:
   year: 2026
   month: 10
   url: "https://github.com/mithil2k2000-tech/rag-access-control-study/blob/main/rag-access-control-study.pdf"
+  doi: "10.5281/zenodo.23593008"
   notes: "Preprint; not peer reviewed."

@@ -1,6 +1,6 @@
 # Where should a RAG system enforce access control?
 
-📄 **Paper (PDF): [rag-access-control-study.pdf](rag-access-control-study.pdf)**
+📄 **Paper (PDF): [rag-access-control-study.pdf](rag-access-control-study.pdf)** · [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23593008.svg)](https://doi.org/10.5281/zenodo.23593008)
 
 Measurements of recall loss and leakage in multi-tenant retrieval-augmented generation, on Reuters-21578 with
 random tenant, department and executive permissions.
